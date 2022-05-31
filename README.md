@@ -1,4 +1,4 @@
-# Sens mail using nodejs
+# Send mail using nodejs
 - Repository for send mail
 - Using this code you can send mail to every gmail account.
 - first you need to to one project setup with package.json file. 
@@ -54,6 +54,6 @@ node sendmail.js
 ```
 Now if its working well then you got output true.
 
-- If you want to send mail using send request goto the send mail API folder in above src and try it..
+- If you want to send mail using send request go to the send mail API folder in above src and try it..
 
  
