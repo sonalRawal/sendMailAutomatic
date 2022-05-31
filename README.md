@@ -7,7 +7,8 @@
 - Go to your google account and open security option then enable the options Less secure app access.
 - Now move to your project and create new file sendmail.js and import nodemailer.
 - create transporter like .....
- ```const smtpTransporte = nodemailer.createTransport({
+ ```
+ const smtpTransporte = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: user,
