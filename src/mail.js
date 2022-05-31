@@ -1,13 +1,13 @@
 const nodemailer = require("nodemailer");
 
 const user = process.env["USER_ADD"];
-const password = process.env["MY_PASSWORD"];
+const appKey = process.env["MY_APPKEY"];
 
 const smtpTransporte = nodemailer.createTransport({
   service: "gmail",
   auth: {
     user: user,
-    pass: password,
+    appKey: appKey
   },
 });
 
